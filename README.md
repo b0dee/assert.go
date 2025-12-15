@@ -24,7 +24,7 @@ great, though sometimes we want to abort
 
 ```go
 func foo(a int) { 
-    assert(a == 69 || a == 420, "Pick a better number")
+    Assert(a == 69 || a == 420, "Pick a better number")
     // code...
 }
 ```
